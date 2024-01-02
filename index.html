@@ -1,0 +1,127 @@
+<html>
+<head>
+    <title>Modern Gadgets</title>
+    <meta name="description" content="A Modern Gadgets design Webpage , coded by Mohamed Adam">
+    <meta name="keywords" content="Mohamed, Adam, Modern, Gadgets, website, webpage, developer, programmer, backend, frontend">
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/images/logo.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+  <body>
+
+    <div class="side-nav" id="side-nav">
+        <div class="side-nav-links">
+            <img width="90px" src="./assets/images/logo.svg" alt="Logo">
+            <a href="#home" class="link" onclick="onClickLink()">Home</a>
+            <a href="#story" class="link"onclick="onClickLink()">Story</a>
+            <a href="#games" class="link" onclick="onClickLink()">Games</a>
+            <a href="#games-gadgets" class="link" onclick="onClickLink()">Gadgets</a>
+            <a href="#download-games" class="link" onclick="onClickLink()">Download</a>
+        </div>
+    </div>
+      <nav>
+          <div class="nav-search">
+              <input placeholder="Search" type="text" class="search-input">
+              <svg class="search-input-icon" fill="#C1C1C1" height="20px" width="20px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 488.4 488.4" xml:space="preserve" stroke="#C1C1C1"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M0,203.25c0,112.1,91.2,203.2,203.2,203.2c51.6,0,98.8-19.4,134.7-51.2l129.5,129.5c2.4,2.4,5.5,3.6,8.7,3.6 s6.3-1.2,8.7-3.6c4.8-4.8,4.8-12.5,0-17.3l-129.6-129.5c31.8-35.9,51.2-83,51.2-134.7c0-112.1-91.2-203.2-203.2-203.2 S0,91.15,0,203.25z M381.9,203.25c0,98.5-80.2,178.7-178.7,178.7s-178.7-80.2-178.7-178.7s80.2-178.7,178.7-178.7 S381.9,104.65,381.9,203.25z"></path> </g> </g> </g></svg>
+          </div>
+          <svg class="nav-menu-icon" id="nav-menu-icon" onclick="toggleSideNav()" width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5 12H20" stroke="#000000" stroke-width="2" stroke-linecap="round"></path> <path d="M5 17H20" stroke="#000000" stroke-width="2" stroke-linecap="round"></path> <path d="M5 7H20" stroke="#000000" stroke-width="2" stroke-linecap="round"></path> </g></svg>
+      </nav>
+
+
+      <main id="home">
+        <section class="hero">
+            <h1 class="black fz-3  " data-aos="fade-up">Sign up and get fresh loot for popular games plus more</h1>
+            <p class="gray fz-2 " data-aos="fade-up"> Come back every month to claim your loot. Just link your game account after claiming and your loot will be waiting for you in-game. </p>
+        </section>
+
+        <section class="story" id="story">
+            <h1 class="black fz-5 " data-aos="fade-up">Our Story</h1>
+            <p class="fz-2 gray " data-aos="fade-up">By 1997, we convinced many key innovations in global development weren’t getting the attention they deserved. Believing there had to be a better way to do aid, they started an experiment. In February 2000, they invited any social entrepreneur to pitch his or her earth-changing idea at the World Bank. The 300+ participants ranged from a group of NASA scientists to a woman who’d never before left her Ugandan village.</p>
+            <p class="fz-2 gray " data-aos="fade-up">The event was a success, and we realized good ideas can come from anyone, anywhere, at any time. They also realized there were many others who wanted to support good ideas. So they left the Bank to launch the world’s first crowdfunding community in 2002. Today, people in more than 165 countries can easily share their ideas, and individual donors and companies can easily support vetted nonprofits.</p>
+            <div class="mission-and-vision">
+                <div class="mission " data-aos="fade-up">
+                    <h2 class="fz-3">Mission</h2>
+                    <p class="fz-2">To transform aid and philanthropy to accelerate community-led change.</p>
+                </div>
+                <div class="vision " data-aos="fade-up">
+                    <h2 class="fz-3">VISION</h2>
+                    <p class="fz-2">Unleashed potential of people to make positive change happen.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="games" id="games">
+            <div class="image-container " data-aos="fade-up">
+                <img src="./assets/images/gadget-1.jpg" alt="">
+            </div>
+            <div class="dots">
+                <div class="dot dot-active" id="dot-1"></div>
+                <div class="dot dot" id="dot-2"></div>
+            </div>
+            <button class="btn " data-aos="fade-up">view all games</button>
+        </section>
+
+        <section class="games-gadgets" id="games-gadgets">
+            <div class="container">
+                <h2 class="black fz-5 " data-aos="fade-up">Game Gadgets</h2>
+            <p class="black fz-3 " data-aos="fade-up">DISCOVER A WORLD WITHOUT LIMITS</p>
+            </div>
+            <div class="images">
+                <img src="./assets/images/gadget-1.jpg" class="" data-aos="fade-up" alt="">
+                <img src="./assets/images/gadget-2.jpg" class="" data-aos="fade-up" alt="">
+                <img src="./assets/images/gadget-3.jpg" class="" data-aos="fade-up" alt="">
+                <img src="./assets/images/gadget-4.jpg" class="" data-aos="fade-up" alt="">
+            </div>
+        </section>
+
+
+        <section class="download-games" id="download-games">
+            <h2 class="white " data-aos="fade-up">
+                Download games and play free games every month.
+            </h2>
+        </section>
+      </main>
+
+
+  </body>
+
+  <script>
+      AOS.init();
+      let element = document.getElementById('side-nav');
+        window.addEventListener('click' , (e)=>{
+            if( e.target !== document.getElementById("nav-menu-icon")  )
+            if (!e.target.contains(element)) {
+                if( element.classList.contains("side-nav-hidden") )
+                toggleSideNav();
+            }
+      })
+
+      onload => function(){
+        
+          alert("asds");
+      }
+      function toggleSideNav(){
+          document.getElementById("side-nav").classList.toggle("side-nav-hidden");
+      }
+      function onClickLink(){
+        document.getElementById("side-nav").classList.remove("side-nav-hidden");
+      }
+      function showImage1(){
+        let dot1 = document.getElementById("dot-1");
+        let dot2 = document.getElementById("dot-1");
+
+        if( dot1.classList.contains("dot-active")){
+
+        }else{
+
+        }
+      } 
+      function showImage2(){
+
+     }
+  </script>
+
+  </html>
